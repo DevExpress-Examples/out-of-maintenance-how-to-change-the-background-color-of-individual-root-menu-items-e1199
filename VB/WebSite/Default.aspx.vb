@@ -5,7 +5,7 @@ Imports System.Linq
 Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
@@ -17,7 +17,7 @@ Partial Public Class _Default
 	 '   ASPxLabel MyLabel = ASPxMenu1.Items[0].FindControl("ASPxLabel1") as ASPxLabel;
 	  '  MyLabel.Text = "Text";
 	End Sub
-	Protected Sub ASPxMenu1_ItemClick(ByVal source As Object, ByVal e As DevExpress.Web.ASPxMenu.MenuItemEventArgs)
+	Protected Sub ASPxMenu1_ItemClick(ByVal source As Object, ByVal e As DevExpress.Web.MenuItemEventArgs)
 
 	End Sub
 End Class
